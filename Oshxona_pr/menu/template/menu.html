@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oshxona Menyusi</title>
+<link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+
+<h1 class="title">🍽️ Oshxona Menyusi</h1>
+
+{% for category in categories %}
+
+<h2 class="category">{{ category.name }}</h2>
+
+<div class="menu-container">
+
+{% for menu in menus %}
+{% if menu.category == category %}
+
+<div class="menu-card">
+
+<img src="{{ menu.image.url }}">
+
+<h3>{{ menu.name }}</h3>
+
+<p>{{ menu.description }}</p>
+
+<span class="price">{{ menu.price }} so'm</span>
+
+</div>
+
+{% endif %}
+{% endfor %}
+
+</div>
+
+{% endfor %}
+
+</body>
+</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Menyu</h1>
+
+{% endblock %}
