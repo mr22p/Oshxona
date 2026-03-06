@@ -5,7 +5,7 @@ def menu_list(request):
     categories = Category.objects.all()
     menus = Menu.objects.all()
 
-    return render(request, 'menu.html', {
+    return render(request, 'menu/menu.html', {
         'categories': categories,
         'menus': menus
     })
