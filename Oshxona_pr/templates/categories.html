@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>🍽️ Kategoriyalar</h1>
+
+<div class="category-container">
+
+{% for category in categories %}
+
+<a href="{% url 'category_menu' category.slug %}" class="category-card">
+    {{ category.name }}
+</a>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

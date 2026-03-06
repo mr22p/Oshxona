@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ category.name }}</h1>
+
+<div class="menu-container">
+
+{% for menu in menus %}
+
+<div class="menu-card">
+
+<img src="{{ menu.image.url }}">
+
+<h3>{{ menu.name }}</h3>
+
+<p>{{ menu.description }}</p>
+
+<span>{{ menu.price }} so'm</span>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}
