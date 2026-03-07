@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h1>{{ category.name }}</h1>
+<h1 class="title">{{ category.name }}</h1>
 
 <div class="menu-container">
 
@@ -10,13 +10,18 @@
 
 <div class="menu-card">
 
-<img src="{{ menu.image.url }}">
+    <img src="{{ menu.image.url }}" alt="{{ menu.name }}">
 
-<h3>{{ menu.name }}</h3>
+    <div class="menu-info">
+        <h3>{{ menu.name }}</h3>
 
-<p>{{ menu.description }}</p>
+        <p>{{ menu.description }}</p>
 
-<span>{{ menu.price }} so'm</span>
+        <div class="menu-bottom">
+            <span class="price">{{ menu.price }} so'm</span>
+            <button class="order-btn">Buyurtma</button>
+        </div>
+    </div>
 
 </div>
 
