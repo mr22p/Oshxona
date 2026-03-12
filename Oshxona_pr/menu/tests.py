@@ -33,11 +33,11 @@ if a > b:
 else:
     print("Katta son:", b)
 
-yosh = int(input("Yoshingizni kiriting: "))
+# yosh = int(input("Yoshingizni kiriting: "))
 
-if yosh <= 6:
-    print("Bola")
-elif yosh <= 17:
-    print("O‘quvchi")
-else:
-    print("Katta")        
+# if yosh <= 6:
+#     print("Bola")
+# elif yosh <= 17:
+#     print("O‘quvchi")
+# else:
+#     print("Katta")        
