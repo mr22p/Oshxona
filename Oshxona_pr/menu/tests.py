@@ -25,19 +25,12 @@ elif ball >= 50:
 else:
     print("2 baho")        
 
-a = int(input("1-sonni kiriting: "))
-b = int(input("2-sonni kiriting: "))
+# a = int(input("1-sonni kiriting: "))
+# b = int(input("2-sonni kiriting: "))
 
-if a > b:
-    print("Katta son:", a)
-else:
-    print("Katta son:", b)
-
-# yosh = int(input("Yoshingizni kiriting: "))
-
-# if yosh <= 6:
-#     print("Bola")
-# elif yosh <= 17:
-#     print("O‘quvchi")
+# if a > b:
+#     print("Katta son:", a)
 # else:
-#     print("Katta")        
+#     print("Katta son:", b)
+
+      
