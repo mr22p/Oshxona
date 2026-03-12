@@ -14,23 +14,17 @@ if son % 2 == 0:
 else:
     print("Toq son")
 
-ball = int(input("Ball kiriting: "))
+# ball = int(input("Ball kiriting: "))
 
-if ball >= 90:
-    print("5 baho")
-elif ball >= 70:
-    print("4 baho")
-elif ball >= 50:
-    print("3 baho")
-else:
-    print("2 baho")        
-
-# a = int(input("1-sonni kiriting: "))
-# b = int(input("2-sonni kiriting: "))
-
-# if a > b:
-#     print("Katta son:", a)
+# if ball >= 90:
+#     print("5 baho")
+# elif ball >= 70:
+#     print("4 baho")
+# elif ball >= 50:
+#     print("3 baho")
 # else:
-#     print("Katta son:", b)
+#     print("2 baho")        
+
+
 
       
