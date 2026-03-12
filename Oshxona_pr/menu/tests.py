@@ -7,23 +7,14 @@ elif son < 0:
 else:
     print("Son 0 ga teng")
 
-son = int(input("Son kiriting: "))
+# son = int(input("Son kiriting: "))
 
-if son % 2 == 0:
-    print("Juft son")
-else:
-    print("Toq son")
-
-# ball = int(input("Ball kiriting: "))
-
-# if ball >= 90:
-#     print("5 baho")
-# elif ball >= 70:
-#     print("4 baho")
-# elif ball >= 50:
-#     print("3 baho")
+# if son % 2 == 0:
+#     print("Juft son")
 # else:
-#     print("2 baho")        
+#     print("Toq son")
+
+
 
 
 
