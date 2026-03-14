@@ -1,7 +1,8 @@
-\oqilgan = input("O'qigan kitob nomini kiriting: ")
-kiritilgan = input("Kitob nomini kiriting: ")
+x = float(input("x ni kiriting: "))
 
-if kiritilgan == oqilgan:
-    print("Bu kitobni o'qiganman")
+if x > -6:
+    y = x + 0.3
 else:
-    print("Afsuski, bu kitobni o'qimaganman")
+    y = (2 + x) / 5
+
+print("y =", y)
