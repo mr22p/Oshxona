@@ -1,5 +1,5 @@
-import math
+a = float(input("Asosni kiriting: "))
+h = float(input("Balandlikni kiriting: "))
 
-R = float(input("Radiusni kiriting: "))
-S = math.pi * R**2
-print("Doira yuzasi:", S)
+S = (a * h) / 2
+print("Uchburchak yuzasi:", S)
