@@ -1,5 +1,7 @@
-a = float(input("Asosni kiriting: "))
-h = float(input("Balandlikni kiriting: "))
+\oqilgan = input("O'qigan kitob nomini kiriting: ")
+kiritilgan = input("Kitob nomini kiriting: ")
 
-S = (a * h) / 2
-print("Uchburchak yuzasi:", S)
+if kiritilgan == oqilgan:
+    print("Bu kitobni o'qiganman")
+else:
+    print("Afsuski, bu kitobni o'qimaganman")
